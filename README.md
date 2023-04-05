@@ -4,9 +4,9 @@ Working on how greater Continents are affected by Covid-19
 1. Used Excel To clean data
 2. Used SQL to Segregate Date needed
 3. Used Tableau For visualization
-                 ------------------------------------------------------------
-		  -- Percent OF population Infected by date and Location
-		 ------------------------------------------------------------
+                ------------------------------------------------------------
+	          -- Percent OF population Infected by date and Location
+	       ------------------------------------------------------------
   --table 4
   Select Location, Population ,date , max(total_cases) as highestInfectionCount , Max((total_cases/population))*100 as percentofpopulationInfected 
   From portfolioProject..Covid_Deaths
