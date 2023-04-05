@@ -1,8 +1,12 @@
 # Covid-19_firstInsightsbycontinent
 Working on how greater Continents are affected by Covid-19  
+
+1. Used Excel To clean data
+2. Used SQL to Segregate Date needed
+3. Used Tableau For visualization
                  ------------------------------------------------------------
-							   -- Percent OF population Infected by date and Location
-							   ------------------------------------------------------------
+		  -- Percent OF population Infected by date and Location
+		 ------------------------------------------------------------
   --table 4
   Select Location, Population ,date , max(total_cases) as highestInfectionCount , Max((total_cases/population))*100 as percentofpopulationInfected 
   From portfolioProject..Covid_Deaths
@@ -13,7 +17,7 @@ Working on how greater Continents are affected by Covid-19
 
                 -------------------------------------------------------------
                 --Percent of Population Infected by Location alone
-							  -------------------------------------------------------------
+		-------------------------------------------------------------
   
   
   --table 3 
@@ -25,7 +29,7 @@ Working on how greater Continents are affected by Covid-19
 
                 ---------------------------------------------------------------
                 --showing the highest death rate by continent
-								---------------------------------------------------------------
+	        ---------------------------------------------------------------
   
   --Table 2        
   
@@ -48,7 +52,7 @@ Order by
                  ----------------------------------------------------------
                                    --global numbers
                                --Total around the world
-							   --------------------------------------------------------
+	         --------------------------------------------------------
 
 --Table 1
 SELECT 
